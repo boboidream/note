@@ -1,0 +1,29 @@
+---
+navbar: false
+layout: home
+pageClass: home-page-class
+logo: '/assets/img/pen.svg'
+title: 一肩月光 · 笔记
+describe: Live and Study.
+books: [{
+  name: 'JavaScript',
+  href: '/js/',
+  logo: '/assets/img/js.svg'
+}, {
+  name: 'ReactJS',
+  href: '/react/',
+  logo: '/assets/img/react.svg'
+},{
+  name: 'Ruby',
+  href: '/ruby/',
+  logo: '/assets/img/ruby.svg'
+}, {
+  name: 'Python',
+  href: '/python/',
+  logo: '/assets/img/python.svg'
+}, {
+  name: 'CSS',
+  href: '/css/',
+  logo: 'assets/img/css.svg'
+}]
+---

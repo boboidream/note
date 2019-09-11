@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>observer demo</title>
+	<script src="./observer.js"></script>
+</head>
+<body>
+<button id="addNewObserver">Add New Observer checkbox</button>	
+<input type="checkbox" id="mainCheckbox">
+<div id="observerContainer"></div>
+
+<script>
+	var controlCheckbox = document.getElementById("mainCheckbox"),
+			addBtn = document.getElementById("addNewObserver"),
+			container = document.getElementById("observerContainer")
+			
+	extend(new Subject(), controlCheckbox)
+	controlCheckbox["onclick"] = new Function(
+		"controlCheckbox.Notify(controlCheckbox.checked)"
+		)
+
+	addBtn["onclick"] = AddNewObserver
+
+	function AddNewObserver() {
+		var check = document.createElement("input")
+
+		check.type = "checkbox"
+		extend(new Observer, check)
+		check.Update = function(value) {
+			this.checked = value
+		}
+		controlCheckbox.AddObserver(check)
+		container.appendChild(check)
+	}
+
+	// 核心是 Subject ，既负责管理 observerList，又负责通知 Observer Update
+</script>
+</body>
+</html>

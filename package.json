@@ -13,6 +13,7 @@
   "author": "boboidream",
   "license": "ISC",
   "devDependencies": {
+    "vuepress": "^1.0.4",
     "vuepress-plugin-autobar": "github:boboidream/vuepress-bar",
     "vuepress-plugin-permalink-pinyin": "^1.0.0",
     "vuepress-plugin-rpurl": "github:boboidream/vuepress-plugin-rpurl"

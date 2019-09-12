@@ -11,6 +11,7 @@
     "build": "vuepress build docs"
   },
   "author": "boboidream",
+  "repository": "github:boboidream/note",
   "license": "ISC",
   "devDependencies": {
     "vuepress": "^1.0.4",

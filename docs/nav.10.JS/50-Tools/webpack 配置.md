@@ -41,7 +41,7 @@ window.$ = window.jQuery = require('jquery');
 不要设置 hot 任何选项，不然会报错 `hot Module replce is disabed`
 
 ## 为 umd 插件设置 global namespace
-```coffee
+``` coffeescript
   output:
     path: path.join root, './.tmp'
     filename: '[name].js'

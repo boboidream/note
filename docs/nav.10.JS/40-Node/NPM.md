@@ -30,11 +30,9 @@ npm dist-tags ls react
 
 
 - 处理依赖关系
-
 ```
-
 npm dedupe //不过npm dedupe命令做的事就是重新计算依赖关系，然后将包结构整理得更合理。
-
+npm cache clean --force // 有时npm的缓存会变得混乱。您可以使用以下方法重置它
 ```
 
 

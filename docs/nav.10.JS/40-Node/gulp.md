@@ -19,7 +19,7 @@
 
 ### Did you forget to signal async completion?
 原因是，task 回调函数没有被执行
-```coffee
+``` coffeescript
 gulp.task 'webpack', (cb) ->
   webpack webpackConfig, (err, stats) ->
     if err

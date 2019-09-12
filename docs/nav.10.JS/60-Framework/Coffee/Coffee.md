@@ -2,18 +2,18 @@
 
 ## 语法
 - 三元运算符
-```coffee
+``` coffeescript
 a = if true then 5 else 10
 a = if false then 5 else 10
 ```
 - setTimeout
-```coffee
+``` coffeescript
 setTimeout -> 
   something param
 , 1000
 ```
 - 遍历对象
-```coffee
+``` coffeescript
 for key of object
 ```
 

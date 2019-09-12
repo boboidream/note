@@ -15,7 +15,7 @@ books: [{
   logo: '/assets/img/react.svg'
 },{
   name: 'Ruby',
-  href: '/ruby/',
+  href: '/rails/',
   logo: '/assets/img/ruby.svg'
 }, {
   name: 'Python',

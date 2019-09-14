@@ -3,6 +3,9 @@ home: false
 footer: Copyright © boboidream
 ---
 
-# 笔记 · JavaScript
+## Books
+* [JavaScript: Best Practice](http://www.brookdalecomp166.com/books/javascript/javascript-best-practice.pdf)
+  
+## Resources
+* [JS books](https://jsbooks.revolunet.com/)
 
-占位展示目录列表。

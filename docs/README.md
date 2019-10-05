@@ -25,5 +25,9 @@ books: [{
   name: 'CSS',
   href: '/css/',
   logo: 'assets/img/css.svg'
+}, {
+  name: 'Java',
+  href: '/java/',
+  logo: 'assets/img/java.svg'
 }]
 ---

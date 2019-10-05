@@ -12,6 +12,9 @@
 可以直接用脚本名调用
 ```bash
 "test": "mocha test"
+
+# 查看当前可执行脚本
+ls node_modules/.bin
 ```
 
 [参考资料](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html)

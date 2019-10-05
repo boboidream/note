@@ -32,4 +32,4 @@ try {
 ```
 
 ## 参考
-* [](https://www.sitepoint.com/proper-error-handling-javascript/)
+* [A Guide to Proper Error Handling in JavaScript](https://www.sitepoint.com/proper-error-handling-javascript/)

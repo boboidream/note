@@ -14,3 +14,5 @@
 
 ## 剪切板工具
 [clipboard.js](https://clipboardjs.com/)
+
+- 精度处理 https://github.com/nefe/number-precision

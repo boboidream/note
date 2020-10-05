@@ -48,6 +48,9 @@ p {
 .logo {
   text-align: center;
 }
+.icon-logo {
+  max-width: 48px;
+}
 .pen {
   height: 10em;
 }
@@ -172,7 +175,7 @@ p {
         <template v-for="book in frontmatter.books">
           <a class="book" :href="book.href">
             <div class="logo">
-              <img :src="$withBase(book.logo)" />
+              <img class="icon-logo" :src="$withBase(book.logo)" />
             </div>
             <div class="name">{{ book.name }}</div>
           </a>

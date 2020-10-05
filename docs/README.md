@@ -29,5 +29,9 @@ books: [{
   name: 'Java',
   href: '/java/',
   logo: 'assets/img/java.svg'
-}]
+}, {
+  name: 'Java',
+  href: '/java/',
+  logo: 'assets/img/java.svg'
+},]
 ---

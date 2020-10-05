@@ -1,4 +1,4 @@
-## 开启压缩
+# 开启压缩
 
 https://github.com/jpush/jmessage-flutter-plugin/issues/115
 

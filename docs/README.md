@@ -30,8 +30,8 @@ books: [{
   href: '/java/',
   logo: 'assets/img/java.svg'
 }, {
-  name: 'Java',
-  href: '/java/',
-  logo: 'assets/img/java.svg'
+  name: 'Flutter',
+  href: '/flutter/',
+  logo: 'assets/img/flutter.svg'
 },]
 ---

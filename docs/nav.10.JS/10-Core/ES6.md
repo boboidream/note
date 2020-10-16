@@ -77,7 +77,8 @@ var a, b;
 你的 ( ... ) 表达式之前需要有一个分号，否则它可能会被当成上一行中的函数执行。
 :::
 
-[](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
 
 ### 学习资料
 - [深入解析 ES6：Symbol](http://bubkoo.com/2015/07/24/es6-in-depth-symbols/)
+- [解构赋值](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)

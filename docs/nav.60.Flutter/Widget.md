@@ -41,3 +41,14 @@ if (ModalRoute.of(Global.recoardKey.currentContext).isCurrent) {
 }
 ```
 
+### 3. 打开全局弹窗
+```dart
+void _openAddEntryDialog() {
+  Navigator.of(context).push(new MaterialPageRoute<Null>(
+      builder: (BuildContext context) {
+        return new AddEntryDialog();
+      },
+    fullscreenDialog: true
+  ));
+}
+```

@@ -6,6 +6,12 @@ https://juejin.im/post/5c768ad2f265da2dce1f535c
 
 
 
+widget的主要工作是提供一个build()方法来描述如何构建UI界面（通常是通过组合、拼装其它基础widget）。
+
+build方法放在State中
+
+
+
 ## 变量
 永远不变、共用的，才在 Class static 变量声名
 

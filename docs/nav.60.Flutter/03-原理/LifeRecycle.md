@@ -7,7 +7,6 @@
 1. 在**MaterialApp**中定义一个**RouteObserver**对象
 
     ```
-
     final RouteObserver<Route<dynamic>> routeObserver = RouteObserver();
 
     class MyApp extends StatelessWidget {
@@ -25,10 +24,9 @@
    ```
    class B extends StatefulWidget {
         B({Key key}) : super(key: key);
-}
+   }
    
    class BState extends State<B>  with RouteAware {
-   
      @override
      void didChangeDependencies() {
        routeObserver.subscribe(this, ModalRoute.of(context)); //订阅

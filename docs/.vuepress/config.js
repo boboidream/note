@@ -12,7 +12,7 @@ module.exports = {
     ],
     docsRepo: 'boboidream/note',
     docsDir: '/',
-    lastUpdated: false,
+    lastUpdated: 'Last Updated',
   },
   plugins: ['permalink-pinyin', ['autobar', {'pinyinNav': true}], 'rpurl'],
   chainWebpack: (config, isServer) => {

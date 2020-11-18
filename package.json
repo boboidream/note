@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs --silent"
   },
   "author": "boboidream",
   "repository": "github:boboidream/note",

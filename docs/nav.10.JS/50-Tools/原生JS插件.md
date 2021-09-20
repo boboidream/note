@@ -7,6 +7,7 @@
 
 ## 日期插件
 - [MOBISCROLL](https://demo.mobiscroll.com/v3/calendar)
+- [day.js](https://day.js.org/) 时间操作库
 
 ## emoji
 [emojione](http://emojione.com/)

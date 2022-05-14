@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>IRB 互动环境 | 一肩月光 · 笔记</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="icon" href="https://www.wenboz.com/favicon.ico">
+    <meta name="description" content="Live and learn.">
+    
+    <link rel="preload" href="/assets/css/0.styles.87888c96.css" as="style"><link rel="preload" href="/assets/js/app.bd657ba6.js" as="script"><link rel="preload" href="/assets/js/2.88c31818.js" as="script"><link rel="preload" href="/assets/js/169.fdbc3b31.js" as="script"><link rel="prefetch" href="/assets/js/10.f54e6a30.js"><link rel="prefetch" href="/assets/js/100.02e84af4.js"><link rel="prefetch" href="/assets/js/101.c632215e.js"><link rel="prefetch" href="/assets/js/102.d30b3590.js"><link rel="prefetch" href="/assets/js/103.928fa581.js"><link rel="prefetch" href="/assets/js/104.efc7daea.js"><link rel="prefetch" href="/assets/js/105.1d925b78.js"><link rel="prefetch" href="/assets/js/106.46bce222.js"><link rel="prefetch" href="/assets/js/107.3aa29066.js"><link rel="prefetch" href="/assets/js/108.b37026df.js"><link rel="prefetch" href="/assets/js/109.f048b043.js"><link rel="prefetch" href="/assets/js/11.bda7e628.js"><link rel="prefetch" href="/assets/js/110.3d4b5028.js"><link rel="prefetch" href="/assets/js/111.1d997d6f.js"><link rel="prefetch" href="/assets/js/112.e4fbb7c0.js"><link rel="prefetch" href="/assets/js/113.67240853.js"><link rel="prefetch" href="/assets/js/114.50642a98.js"><link rel="prefetch" href="/assets/js/115.753a4bcc.js"><link rel="prefetch" href="/assets/js/116.357cf5d2.js"><link rel="prefetch" href="/assets/js/117.e5060726.js"><link rel="prefetch" href="/assets/js/118.fc229e81.js"><link rel="prefetch" href="/assets/js/119.1d74bff1.js"><link rel="prefetch" href="/assets/js/12.a8ac0875.js"><link rel="prefetch" href="/assets/js/120.800f3a79.js"><link rel="prefetch" href="/assets/js/121.483200e3.js"><link rel="prefetch" href="/assets/js/122.5ea529c3.js"><link rel="prefetch" href="/assets/js/123.f6dde093.js"><link rel="prefetch" href="/assets/js/124.f123900c.js"><link rel="prefetch" href="/assets/js/125.cf7f8d42.js"><link rel="prefetch" href="/assets/js/126.cc6b3b9d.js"><link rel="prefetch" href="/assets/js/127.2234b4e1.js"><link rel="prefetch" href="/assets/js/128.e9d50e53.js"><link rel="prefetch" href="/assets/js/129.658003a3.js"><link rel="prefetch" href="/assets/js/13.64abb100.js"><link rel="prefetch" href="/assets/js/130.a8797b20.js"><link rel="prefetch" href="/assets/js/131.a6f3fbaa.js"><link rel="prefetch" href="/assets/js/132.3c7f9f05.js"><link rel="prefetch" href="/assets/js/133.ad71ec73.js"><link rel="prefetch" href="/assets/js/134.b9d45f98.js"><link rel="prefetch" href="/assets/js/135.60516d3a.js"><link rel="prefetch" href="/assets/js/136.fbf89c1f.js"><link rel="prefetch" href="/assets/js/137.a3fde72c.js"><link rel="prefetch" href="/assets/js/138.a7ccc432.js"><link rel="prefetch" href="/assets/js/139.c10048a5.js"><link rel="prefetch" href="/assets/js/14.0670b4ae.js"><link rel="prefetch" href="/assets/js/140.313be43e.js"><link rel="prefetch" href="/assets/js/141.5c94be81.js"><link rel="prefetch" href="/assets/js/142.ee4c7e96.js"><link rel="prefetch" href="/assets/js/143.9bed550b.js"><link rel="prefetch" href="/assets/js/144.00078e7c.js"><link rel="prefetch" href="/assets/js/145.0fbe349e.js"><link rel="prefetch" href="/assets/js/146.9b596324.js"><link rel="prefetch" href="/assets/js/147.1def1c67.js"><link rel="prefetch" href="/assets/js/148.7145eb06.js"><link rel="prefetch" href="/assets/js/149.17d5e49c.js"><link rel="prefetch" href="/assets/js/15.a6b168b7.js"><link rel="prefetch" href="/assets/js/150.f737bc8c.js"><link rel="prefetch" href="/assets/js/151.fcde5011.js"><link rel="prefetch" href="/assets/js/152.063a171b.js"><link rel="prefetch" href="/assets/js/153.439a80f8.js"><link rel="prefetch" href="/assets/js/154.6484cc17.js"><link rel="prefetch" href="/assets/js/155.8bca539c.js"><link rel="prefetch" href="/assets/js/156.2b0b2fe4.js"><link rel="prefetch" href="/assets/js/157.b461fdaf.js"><link rel="prefetch" href="/assets/js/158.1800c2de.js"><link rel="prefetch" href="/assets/js/159.bac4b671.js"><link rel="prefetch" href="/assets/js/16.fe723a4b.js"><link rel="prefetch" href="/assets/js/160.da1bbf74.js"><link rel="prefetch" href="/assets/js/161.75f658d9.js"><link rel="prefetch" href="/assets/js/162.9f288a07.js"><link rel="prefetch" href="/assets/js/163.4c84fc21.js"><link rel="prefetch" href="/assets/js/164.144ca3b7.js"><link rel="prefetch" href="/assets/js/165.2d4f4134.js"><link rel="prefetch" href="/assets/js/166.c552fc82.js"><link rel="prefetch" href="/assets/js/167.d918aa39.js"><link rel="prefetch" href="/assets/js/168.71820dd6.js"><link rel="prefetch" href="/assets/js/17.984f377f.js"><link rel="prefetch" href="/assets/js/170.804b0008.js"><link rel="prefetch" href="/assets/js/171.6f13e0b1.js"><link rel="prefetch" href="/assets/js/172.264d61ff.js"><link rel="prefetch" href="/assets/js/173.2136d52f.js"><link rel="prefetch" href="/assets/js/174.f3b6c9dc.js"><link rel="prefetch" href="/assets/js/175.0114f99a.js"><link rel="prefetch" href="/assets/js/176.f6a3c8d2.js"><link rel="prefetch" href="/assets/js/177.3da6d0b2.js"><link rel="prefetch" href="/assets/js/178.201acd4b.js"><link rel="prefetch" href="/assets/js/179.c351414e.js"><link rel="prefetch" href="/assets/js/18.18e54376.js"><link rel="prefetch" href="/assets/js/180.18448370.js"><link rel="prefetch" href="/assets/js/181.55cafdcf.js"><link rel="prefetch" href="/assets/js/182.1b297df3.js"><link rel="prefetch" href="/assets/js/183.e6e2f993.js"><link rel="prefetch" href="/assets/js/184.78bebb06.js"><link rel="prefetch" href="/assets/js/185.c725e8dd.js"><link rel="prefetch" href="/assets/js/186.c3caab82.js"><link rel="prefetch" href="/assets/js/187.cd31f978.js"><link rel="prefetch" href="/assets/js/188.9aa2eb8a.js"><link rel="prefetch" href="/assets/js/189.022f0a2d.js"><link rel="prefetch" href="/assets/js/19.3fb14cd9.js"><link rel="prefetch" href="/assets/js/190.25820804.js"><link rel="prefetch" href="/assets/js/191.7c204b60.js"><link rel="prefetch" href="/assets/js/192.2ffd6597.js"><link rel="prefetch" href="/assets/js/193.ae6f2e6b.js"><link rel="prefetch" href="/assets/js/194.7b15377f.js"><link rel="prefetch" href="/assets/js/195.ff7a0c54.js"><link rel="prefetch" href="/assets/js/196.d85ed12a.js"><link rel="prefetch" href="/assets/js/197.15d50511.js"><link rel="prefetch" href="/assets/js/198.a50b6cab.js"><link rel="prefetch" href="/assets/js/199.87eac61a.js"><link rel="prefetch" href="/assets/js/20.508b62ad.js"><link rel="prefetch" href="/assets/js/200.c39e98a2.js"><link rel="prefetch" href="/assets/js/201.e22afd11.js"><link rel="prefetch" href="/assets/js/202.e70c8cb7.js"><link rel="prefetch" href="/assets/js/203.fe77b7e2.js"><link rel="prefetch" href="/assets/js/204.3d07f359.js"><link rel="prefetch" href="/assets/js/205.8952bc10.js"><link rel="prefetch" href="/assets/js/206.cad03ea8.js"><link rel="prefetch" href="/assets/js/207.b188352b.js"><link rel="prefetch" href="/assets/js/208.402284a4.js"><link rel="prefetch" href="/assets/js/209.241ea547.js"><link rel="prefetch" href="/assets/js/21.682f878c.js"><link rel="prefetch" href="/assets/js/210.643b19eb.js"><link rel="prefetch" href="/assets/js/211.73f6d0b0.js"><link rel="prefetch" href="/assets/js/212.2ba1f511.js"><link rel="prefetch" href="/assets/js/213.42bf07a8.js"><link rel="prefetch" href="/assets/js/214.7a49896f.js"><link rel="prefetch" href="/assets/js/215.c63ab36e.js"><link rel="prefetch" href="/assets/js/216.8ba8dacb.js"><link rel="prefetch" href="/assets/js/217.526b6afb.js"><link rel="prefetch" href="/assets/js/218.8f4860fb.js"><link rel="prefetch" href="/assets/js/219.5759f61c.js"><link rel="prefetch" href="/assets/js/22.3ac9a4b9.js"><link rel="prefetch" href="/assets/js/220.d8524409.js"><link rel="prefetch" href="/assets/js/23.76707454.js"><link rel="prefetch" href="/assets/js/24.f3b7330f.js"><link rel="prefetch" href="/assets/js/25.ad9c3a1b.js"><link rel="prefetch" href="/assets/js/26.650c1ef9.js"><link rel="prefetch" href="/assets/js/27.78402568.js"><link rel="prefetch" href="/assets/js/28.91215bdb.js"><link rel="prefetch" href="/assets/js/29.1f125052.js"><link rel="prefetch" href="/assets/js/3.b6ca19e9.js"><link rel="prefetch" href="/assets/js/30.ebdebccf.js"><link rel="prefetch" href="/assets/js/31.04193fd0.js"><link rel="prefetch" href="/assets/js/32.d60b823a.js"><link rel="prefetch" href="/assets/js/33.a4a05d38.js"><link rel="prefetch" href="/assets/js/34.1c9c7c55.js"><link rel="prefetch" href="/assets/js/35.64b00bb3.js"><link rel="prefetch" href="/assets/js/36.36c8c01c.js"><link rel="prefetch" href="/assets/js/37.d14467c9.js"><link rel="prefetch" href="/assets/js/38.b5b790b3.js"><link rel="prefetch" href="/assets/js/39.d08a6eb1.js"><link rel="prefetch" href="/assets/js/4.f71c5f60.js"><link rel="prefetch" href="/assets/js/40.811624df.js"><link rel="prefetch" href="/assets/js/41.34499b0c.js"><link rel="prefetch" href="/assets/js/42.a2748f48.js"><link rel="prefetch" href="/assets/js/43.62c7c40b.js"><link rel="prefetch" href="/assets/js/44.e705cc76.js"><link rel="prefetch" href="/assets/js/45.492a6245.js"><link rel="prefetch" href="/assets/js/46.92993205.js"><link rel="prefetch" href="/assets/js/47.9e265894.js"><link rel="prefetch" href="/assets/js/48.63ab0625.js"><link rel="prefetch" href="/assets/js/49.4bfd11a0.js"><link rel="prefetch" href="/assets/js/5.5bf2dc04.js"><link rel="prefetch" href="/assets/js/50.348352c0.js"><link rel="prefetch" href="/assets/js/51.38dd4c9a.js"><link rel="prefetch" href="/assets/js/52.bb02c5b9.js"><link rel="prefetch" href="/assets/js/53.4a40ae5b.js"><link rel="prefetch" href="/assets/js/54.13008d36.js"><link rel="prefetch" href="/assets/js/55.b51e8ea6.js"><link rel="prefetch" href="/assets/js/56.b5473ef0.js"><link rel="prefetch" href="/assets/js/57.28a0b64a.js"><link rel="prefetch" href="/assets/js/58.62385a3a.js"><link rel="prefetch" href="/assets/js/59.e0247d67.js"><link rel="prefetch" href="/assets/js/6.b29a7847.js"><link rel="prefetch" href="/assets/js/60.611d411e.js"><link rel="prefetch" href="/assets/js/61.a375836c.js"><link rel="prefetch" href="/assets/js/62.1380e010.js"><link rel="prefetch" href="/assets/js/63.37a2db3c.js"><link rel="prefetch" href="/assets/js/64.80217c43.js"><link rel="prefetch" href="/assets/js/65.2905b821.js"><link rel="prefetch" href="/assets/js/66.5f23184a.js"><link rel="prefetch" href="/assets/js/67.44e846f2.js"><link rel="prefetch" href="/assets/js/68.bedde038.js"><link rel="prefetch" href="/assets/js/69.fbd195bd.js"><link rel="prefetch" href="/assets/js/7.4b95f911.js"><link rel="prefetch" href="/assets/js/70.9bc22f9f.js"><link rel="prefetch" href="/assets/js/71.20018f59.js"><link rel="prefetch" href="/assets/js/72.9eef8ec4.js"><link rel="prefetch" href="/assets/js/73.4e253c0f.js"><link rel="prefetch" href="/assets/js/74.1aab9088.js"><link rel="prefetch" href="/assets/js/75.25eb94e8.js"><link rel="prefetch" href="/assets/js/76.8a021b55.js"><link rel="prefetch" href="/assets/js/77.8c2348ed.js"><link rel="prefetch" href="/assets/js/78.6feb2177.js"><link rel="prefetch" href="/assets/js/79.2650b276.js"><link rel="prefetch" href="/assets/js/8.b9a2cf5c.js"><link rel="prefetch" href="/assets/js/80.d60611dd.js"><link rel="prefetch" href="/assets/js/81.1b7a64c7.js"><link rel="prefetch" href="/assets/js/82.fab4cfe0.js"><link rel="prefetch" href="/assets/js/83.9f6c20ab.js"><link rel="prefetch" href="/assets/js/84.e8684e48.js"><link rel="prefetch" href="/assets/js/85.e38bf720.js"><link rel="prefetch" href="/assets/js/86.64fd1ebd.js"><link rel="prefetch" href="/assets/js/87.0f06d867.js"><link rel="prefetch" href="/assets/js/88.d264e4d2.js"><link rel="prefetch" href="/assets/js/89.36f4c163.js"><link rel="prefetch" href="/assets/js/9.f056bc21.js"><link rel="prefetch" href="/assets/js/90.22dabf9b.js"><link rel="prefetch" href="/assets/js/91.45e39e3a.js"><link rel="prefetch" href="/assets/js/92.aee0c241.js"><link rel="prefetch" href="/assets/js/93.d0538a36.js"><link rel="prefetch" href="/assets/js/94.092055e4.js"><link rel="prefetch" href="/assets/js/95.aa4f8fe0.js"><link rel="prefetch" href="/assets/js/96.29fcd657.js"><link rel="prefetch" href="/assets/js/97.b66347c1.js"><link rel="prefetch" href="/assets/js/98.9e9f5de6.js"><link rel="prefetch" href="/assets/js/99.091de6f9.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.87888c96.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">一肩月光 · 笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/js/" class="nav-link">
+  JS
+</a></div><div class="nav-item"><a href="/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/react/" class="nav-link">
+  React
+</a></div><div class="nav-item"><a href="/rails/" class="nav-link router-link-active">
+  Rails
+</a></div><div class="nav-item"><a href="/java/" class="nav-link">
+  Java
+</a></div><div class="nav-item"><a href="/flutter/" class="nav-link">
+  Flutter
+</a></div><div class="nav-item"><a href="https://www.wenboz.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/boboidream/note" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/js/" class="nav-link">
+  JS
+</a></div><div class="nav-item"><a href="/css/" class="nav-link">
+  CSS
+</a></div><div class="nav-item"><a href="/react/" class="nav-link">
+  React
+</a></div><div class="nav-item"><a href="/rails/" class="nav-link router-link-active">
+  Rails
+</a></div><div class="nav-item"><a href="/java/" class="nav-link">
+  Java
+</a></div><div class="nav-item"><a href="/flutter/" class="nav-link">
+  Flutter
+</a></div><div class="nav-item"><a href="https://www.wenboz.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Blog
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/boboidream/note" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>知识储备</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu.html" class="sidebar-link">Ruby 基础知识</a></li><li><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html" aria-current="page" class="active sidebar-link">IRB 互动环境</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#irb-互动环境" class="sidebar-link">IRB 互动环境</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#字符类型" class="sidebar-link">字符类型</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#流程控制" class="sidebar-link">流程控制</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#对象导向" class="sidebar-link">对象导向</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#方法的封装" class="sidebar-link">方法的封装</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#class-继承" class="sidebar-link">Class 继承</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#module" class="sidebar-link">Module</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#iterator-迭代器" class="sidebar-link">Iterator 迭代器</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#yield" class="sidebar-link">Yield</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#例外处理" class="sidebar-link">例外处理</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#introspection-反射机制" class="sidebar-link">Introspection 反射机制</a></li><li class="sidebar-sub-header"><a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu-2.html#常见惯例" class="sidebar-link">常见惯例</a></li></ul></li><li><a href="/rails/1zhi-shi-chu-bei/xue-xi-li-cheng.html" class="sidebar-link">学习历程</a></li><li><a href="/rails/1zhi-shi-chu-bei/zhi-shi-chu-bei.html" class="sidebar-link">学习资料</a></li><li><a href="/rails/1zhi-shi-chu-bei/zi-liao-qing-dan.html" class="sidebar-link">学习资料</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>环境构建</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>BDD测试驱动</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Route路由</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Data Base数据库</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>MVC交互</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Rails语法</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="irb-互动环境"><a href="#irb-互动环境" class="header-anchor">#</a> IRB 互动环境</h2> <div class="language- extra-class"><pre class="language-text"><code>$ irb
+</code></pre></div><p>Ruby是個動態強分型的直譯式程式語言</p> <h2 id="字符类型"><a href="#字符类型" class="header-anchor">#</a> 字符类型</h2> <ul><li><p>整数 Integer ,任何整数都是 <code>Fixnum</code> 对象。运算结果为整数</p></li> <li><p>浮点数 <code>Float</code> 对象</p></li> <li><p><code>String</code>对象 单双引号括起来，字串不能直接跟數字相加，會發生例外錯誤</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+
+var1 = 'stop'
+var2 = 'foobar'
+var3 = &quot;aAbBcC&quot;
+
+puts var1.reverse # pots
+puts var2.length # 6
+puts var3.upcase # AABBCC
+puts var3.downcase # aabbcc
+
+# 内插模式
+verb = 'work'
+where = 'office'
+
+# 双引号字符串
+puts &quot;I #{verb} at the #{where}&quot; # 輸出 I work at the office
+</code></pre></div><ul><li>类型转换</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+# 相加前需要手动转换
+
+to_s(轉成字串)
+
+to_i(轉成整數)
+
+to_f(轉成浮點數)
+
+</code></pre></div><ul><li>区域变量</li></ul> <p>區域變數使用小寫開頭，偏好單字之間以底線_來分隔。範例如下：</p> <div class="language- extra-class"><pre class="language-text"><code>
+
+composer = 'Mozart'
+puts composer + ' was &quot;da bomb&quot;, in his day.'
+
+my_composer = 'Beethoven'
+puts 'But I prefer ' + my_composer + ', personally.'
+</code></pre></div><ul><li>Constant 常数</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+# 大寫開頭的是為常數
+
+Foo = 1
+Foo = 2 # (irb):3: warning: already initialized constant Foo
+
+RUBY_PLATFORM # =&gt; &quot;x86_64-darwin10.7.0&quot;
+ENV # =&gt; { &quot;PATH&quot; =&gt; &quot;....&quot;, &quot;LC_ALL&quot; =&gt; &quot;zh_TW.UTF-8&quot; }
+</code></pre></div><ul><li>空值 nil</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+# 表示未設定值、未定義的狀態：
+
+
+nil # nil
+nil.class # NilClass
+
+nil.nil? # true
+42.nil? # false
+
+nil == nil # true
+false == nil # false
+</code></pre></div><ul><li><p>Ruby偏好一律使用單行註解：</p></li> <li><p>Symbols 字串符號</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+# 是唯一且不會變動的識別名稱，用冒號開頭.
+
+# 相同名稱的Symbol不會再重複建構物件，所以使用Symbol可以執行的更有效率。
+
+
+:this_is_a_symbol
+相同名稱的Symbol不會再重複建構物件，所以使用Symbol可以執行的更有效率。
+
+
+puts &quot;foobar&quot;.object_id      # 輸出 2151854740
+puts &quot;foobar&quot;.object_id      # 輸出 2151830100
+</code></pre></div><ul><li>Array 数组</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+# 可放任意类型
+a = [ 1, &quot;cat&quot;, 3.14 ]
+
+puts a[0] # 輸出 1
+puts a.size # 輸出 3
+# inspect方法會將物件轉成適合給人看的字串
+puts a.inspect # 輸出 [1, &quot;cat&quot;, nil]
+
+colors = [&quot;red&quot;, &quot;blue&quot;]
+
+colors.push(&quot;black&quot;)
+colors &lt;&lt; &quot;white&quot;
+puts colors.join(&quot;, &quot;) # red, blue, black, white
+
+colors.pop
+puts colors.last #black
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>
+languages = ['Ruby', 'Javascript', 'Perl']
+
+languages.each do |lang|
+  puts 'I love ' + lang + '!'
+end
+
+# I Love Ruby!
+# I Love Javascript!
+# I Love Perl!
+</code></pre></div><ul><li>Hash</li></ul> <p>Hash是一種鍵值對(Key-Value)的資料結構，雖然你可以使用任何物件當作Key，但是通常我們使用Symbol當作Key。</p> <div class="language- extra-class"><pre class="language-text"><code>
+
+config = { foo: 123, bar: 456 } # 等同於 { :foo =&gt; 123, :bar =&gt; 456 }
+
+# each
+config = { :foo =&gt; 123, :bar =&gt; 456 }
+config.each do |key, value|
+  puts &quot;#{key} is #{value}&quot;
+end
+</code></pre></div><h2 id="流程控制"><a href="#流程控制" class="header-anchor">#</a> 流程控制</h2> <ul><li>比较</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+
+puts 1 &gt; 2 # 大於
+puts 1 &lt; 2 # 小於
+puts 5 &gt;= 5 # 大於等於
+puts 5 &lt;= 4 # 小於等於
+puts 1 == 1 # 等於
+puts 2 != 1 # 不等於
+
+puts ( 2 &gt; 1 ) &amp;&amp; ( 2 &gt; 3 ) # 和
+puts ( 2 &gt; 1 ) || ( 2 &gt; 3 ) # 或
+</code></pre></div><ul><li>if</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+
+total = 26000
+
+if total &gt; 100000
+  puts &quot;large account&quot;
+elsif total &gt; 25000
+  puts &quot;medium account&quot;
+else
+  puts &quot;small account&quot;
+end
+
+# 只有一行
+puts &quot;greater than ten&quot; if total &gt; 10
+</code></pre></div><ul><li>三元运算符</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+
+x = 3
+y = ( x &gt; 3 ) ? &quot;foo&quot; : &quot;bar&quot;
+</code></pre></div><ul><li>Case</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+
+case name
+  when &quot;John&quot;
+    puts &quot;Howdy John!&quot;
+  when &quot;Ryan&quot;
+    puts &quot;Whatz up Ryan!&quot;
+  else
+    puts &quot;Hi #{name}!&quot;
+end
+</code></pre></div><ul><li><p>while, loop, until, next and break</p></li> <li><p>正则</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+# 抓出手機號碼
+phone = &quot;123-456-7890&quot;
+if phone =~ /(\d{3})-(\d{3})-(\d{4})/
+  ext  = $1
+  city = $2
+  num  = $3
+end
+</code></pre></div><ul><li>函数</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+# 方法中的return是可以省略的，Ruby就會回傳最後一行運算的值
+def say_hello(name)
+  &quot;Hi, &quot; + name
+end
+
+puts say_hello('ihower')
+# 輸出 Hi, ihower
+
+# 呼叫方法時，括號也是可以省略的
+say_hello 'ihower'
+</code></pre></div><ul><li>?與!的慣例</li></ul> <p>方法名稱可以用?或!結尾，前者表示會回傳Boolean值</p> <h2 id="对象导向"><a href="#对象导向" class="header-anchor">#</a> 对象导向</h2> <p>Ruby的類別其實也是一種常數，所以也是大寫開頭，使用new方法可以建立出物件</p> <ul><li>自定义类</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+
+class Person # 大寫開頭的常數
+
+  def initialize(name) # 建構式
+    @name = name # 物件變數
+  end
+
+  def say(word)
+    puts &quot;#{word}, #{@name}&quot; # 字串相加
+  end
+
+end
+
+p1 = Person.new(&quot;ihower&quot;)
+p2 = Person.new(&quot;ihover&quot;)
+
+p1.say(&quot;Hello&quot;) # 輸出 Hello, ihower
+p2.say(&quot;Hello&quot;) # 輸出 Hello, ihover
+</code></pre></div><ul><li>定义类的方法和变量</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+
+class Person
+
+  @@name = “ihower” # 類別變數
+
+  def self.say # 類別方法
+    puts @@name
+  end
+
+end
+
+Person.say # 輸出 ihower
+</code></pre></div><ul><li>资料变量</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+所有的物件變數(@開頭)、類別變數(@@開頭)，都是封裝在類別內部的，類別外無法存取：
+
+
+class Person
+  def initialize(name)
+    @name = name
+  end
+end
+
+p = Person.new('ihower')
+p.name                      # 出現 NoMethodError 錯誤
+p.name = 'peny'             # 出現 NoMethodError 錯誤
+</code></pre></div><ul><li>可通过定义方法，读取内部变量</li></ul> <div class="language- extra-class"><pre class="language-text"><code>
+# attr_accessor、attr_writer、attr_reader類別方法可以直接定義這些方法。
+
+
+class Person
+  attr_accessor :name
+
+  def initialize(name)
+    @name = name
+  end
+end
+
+p = Person.new('ihower')
+</code></pre></div><p>跟其他程式語言不太一樣，Ruby的類別層級內也可以執行程式</p> <div class="language- extra-class"><pre class="language-text"><code>
+
+class Demo
+  puts &quot;foobar&quot;
+end
+
+# 當你載入這個類別的時候，就會執行puts &quot;foobar&quot;輸出foobar
+</code></pre></div><h2 id="方法的封装"><a href="#方法的封装" class="header-anchor">#</a> 方法的封装</h2> <p>類別中的方法預設是public的，宣告private或protected的話，該行以下的方法就會套用：</p> <p>class MyClass</p> <p>def public_method
+end</p> <p>private</p> <p>def private_method_1
+end</p> <p>def private_method_2
+end</p> <p>protected</p> <p>def protected_method
+end</p> <p>end
+兩著差別在於private只有在物件內部才能呼叫，預設的接收者(receiver)就是物件本身，也就是self。而protected方法除了可以在本身內部呼叫以外，還可以被子類別的物件、或是另一個相同類別的物件呼叫。</p> <div class="language- extra-class"><pre class="language-text"><code>
+object.call_method的意思是object收到執行call_method的指令，
+
+你甚至可以改寫成object.__send__(:call_method)
+
+</code></pre></div><h2 id="class-继承"><a href="#class-继承" class="header-anchor">#</a> Class 继承</h2> <p>Ruby使用小於&lt;符號代表類別繼承：</p> <p>class Pet
+attr_accessor :name, :age</p> <p>def say(word)
+puts &quot;Say: #{word}&quot;
+end
+end</p> <p>class Cat &lt; Pet
+def say(word)
+puts &quot;Meow~&quot;
+super
+end
+end</p> <p>class Dog &lt; Pet
+def say(word, person)
+puts &quot;Bark at #{person}!&quot;
+super(word)
+end
+end</p> <p>Cat.new.say(&quot;Hi&quot;)
+Dog.new.say(&quot;Hi&quot;, &quot;ihower&quot;)
+輸出</p> <p>Meow~
+Say: Hi
+Bark at ihower!
+Say: Hi
+這個範例中，Cat和Dog子類別覆寫了Pet say方法，其中的super是用來呼叫被覆寫掉的Pet say方法。另外，沒有括號的super和有括號的super()是有差異的，前者Ruby會自動將所有參數都代進去來呼叫父類別的方法，後者則是自己指定參數。此例中如果Dog say裡只寫super，則會發生wrong number of arguments的錯誤，這是因為Ruby會傳say(&quot;Hi&quot;, &quot;ihower&quot;)給Pet say而發生錯誤。</p> <h2 id="module"><a href="#module" class="header-anchor">#</a> Module</h2> <p>它跟Class類別非常相似，你可以在裡面定義方法。只是你不能用new來建立它。</p> <div class="language- extra-class"><pre class="language-text"><code>
+
+module MyUtil
+
+  def self.foobar
+    puts &quot;foobar&quot;
+  end
+
+end
+
+MyUtil.foobar
+# 輸出 foobar
+</code></pre></div><p>首先是debug.rb</p> <div class="language- extra-class"><pre class="language-text"><code>
+module Debug
+  def who_am_i?
+    puts &quot;#{self.class.name}: #{self.inspect}&quot;
+  end
+end
+</code></pre></div><p>然後是foobar.rb</p> <div class="language- extra-class"><pre class="language-text"><code>
+require &quot;./debug&quot;
+class Foo
+  include Debug # 這個動作叫做 Mixin
+end
+
+class Bar
+  include Debug
+end
+
+f = Foo.new
+b = Bar.new
+f.who_am_i? # 輸出 Foo: #&lt;Foo:0x00000102829170&gt;
+b.who_am_i? # 輸出 Bar: #&lt;Bar:0x00000102825b88&gt;
+</code></pre></div><p>Ruby使用Module來解決多重繼承的問題，</p> <h2 id="iterator-迭代器"><a href="#iterator-迭代器" class="header-anchor">#</a> Iterator 迭代器</h2> <p>例如each是一個陣列的方法，它會走訪其中的元素，其中的do ... end是each方法的參數，稱作Code Block，是一個匿名函式(anonymous function)</p> <div class="language- extra-class"><pre class="language-text"><code>
+languages = ['Ruby', 'Javascript', 'Perl']
+languages.each do |lang|
+  puts &quot;I love #{lang}!&quot;
+end
+# I Love Ruby!
+# I Love Javascript!
+# I Love Perl!
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code># 反覆三次
+3.times do
+  puts 'Good Job!'
+end
+# Good Job!
+# Good Job!
+# Good Job!
+
+# 從一數到九
+1.upto(9) do |x|
+  puts x
+end
+
+# 多一個索引區塊變數
+languages = ['Ruby', 'Javascript', 'Perl']
+languages.each_with_index do |lang, i|
+    puts &quot;#{i}, I love #{lang}!&quot;
+end
+# 0, I Love Ruby!
+# 1, I Love Javascript!
+# 2, I Love Perl!
+</code></pre></div><p>(Code block)的形式除了do ... end，也可以改用大括號。通常單行會會用大括號，多行會用do ... end的形式。</p> <div class="language- extra-class"><pre class="language-text"><code>3.times { puts &quot;Hello&quot; }
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code># 迭代並造出另一個陣列
+a = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;]
+b = a.map {|x| x + &quot;!&quot; }
+puts b.inspect
+
+# 結果是 [&quot;a!&quot;, &quot;b!&quot;, &quot;c!&quot;, &quot;d!&quot;]
+
+# 找出符合條件的值
+b = [1, 2, 3].find_all{ |x| x % 2 == 0 }
+b.inspect
+# 結果是 [2]
+
+# 迭代並根據條件刪除
+a = [51, 101, 256]
+a.delete_if {|x| x &gt;= 100 }
+# 結果是 [51]
+
+# 客製化排序
+[2, 1, 3].sort! { |a, b| b &lt;=&gt; a }
+# 結果是 [3, 2, 1]
+
+# 計算總和
+(5..10).inject {|sum, n| sum + n }
+# 結果是 45
+
+# 找出最長字串find the longest word
+longest = [&quot;cat&quot;, &quot;sheep&quot;, &quot;bear&quot;].inject do |memo, word|
+  ( memo.length &gt; word.length ) ? memo : word
+end
+# 結果是 &quot;sheep&quot;
+</code></pre></div><h2 id="yield"><a href="#yield" class="header-anchor">#</a> Yield</h2> <p>在方法中使用yield可以執行Code block參數：</p> <div class="language- extra-class"><pre class="language-text"><code># 定義方法
+def call_block
+  puts &quot;Start&quot;
+  yield
+  yield
+  puts &quot;End&quot;
+end
+
+call_block { puts &quot;Blocks are cool!&quot; }
+# 輸出
+# &quot;Start&quot;
+# &quot;Blocks are cool!&quot;
+# &quot;Blocks are cool!&quot;
+# &quot;End&quot;
+</code></pre></div><h2 id="例外处理"><a href="#例外处理" class="header-anchor">#</a> 例外处理</h2> <div class="language- extra-class"><pre class="language-text"><code>begin
+  puts 10 / 0 # 這會丟出 ZeroDivisionError 的例外錯誤
+rescue =&gt; e
+  puts e.class # 如果發生例外會執行 rescue 這一段
+ensure
+  # 無論有沒有發生例外，ensure 這一段都一定會執行
+end
+# 輸出 ZeroDivisionError
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>raise &quot;Not works!!&quot;
+# 丟出一個 RuntimeError
+
+# 自行自定例外物件
+class MyException &lt; RuntimeError
+end
+
+raise MyException
+</code></pre></div><h2 id="introspection-反射机制"><a href="#introspection-反射机制" class="header-anchor">#</a> Introspection 反射机制</h2> <div class="language- extra-class"><pre class="language-text"><code># 這個物件有什麼方法
+Object.methods
+=&gt; [&quot;send&quot;, &quot;name&quot;, &quot;class_eval&quot;, &quot;object_id&quot;, &quot;new&quot;, &quot;singleton_methods&quot;, ...]
+
+# 這個物件有這個方法嗎？
+Object.respond_to? :name
+=&gt; true
+</code></pre></div><h2 id="常见惯例"><a href="#常见惯例" class="header-anchor">#</a> 常见惯例</h2> <div class="language- extra-class"><pre class="language-text"><code>result ||= a
+</code></pre></div><p>如果result是nil或false的話，將a指派給result，如果不是的話，什麼都不做。以上這段程式等同於</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">5/14/2022, 11:38:45 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/rails/1zhi-shi-chu-bei/rubyyu-yan-ji-chu.html" class="prev">
+        Ruby 基础知识
+      </a></span> <span class="next"><a href="/rails/1zhi-shi-chu-bei/xue-xi-li-cheng.html">
+        学习历程
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.bd657ba6.js" defer></script><script src="/assets/js/2.88c31818.js" defer></script><script src="/assets/js/169.fdbc3b31.js" defer></script>
+  </body>
+</html>
